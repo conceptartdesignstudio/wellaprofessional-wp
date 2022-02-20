@@ -6,7 +6,7 @@
     <p class="flex-item mainTitle">Bem-vindo ao mundo de Wella</p>
     <div class="flex-item">
       <ul>
-        <li><a href="https://pro.sistemawca.com.br/wp-login.php" target="_blank" rel="noopener noreferrer">Login</a>
+        <li><a href="https://pro.sistemawca.com.br/wp-login.php">Login</a>
         </li>
       </ul>
     </div>
