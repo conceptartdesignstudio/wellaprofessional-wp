@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Aspira';
+  src: local('Aspira'), url(../assets/fonts/Aspira-Regular.otf) format('otf');
+}
+
+body {
+  font-family: 'Aspira', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: #e0e0e0;
+  height: 100%;
+}
+
+main {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+}
+
+.logo {
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.mainTitle {
+  color: #d10844d7;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.row {
+  width: auto;
+}
+
+.flex-item {
+  padding: 5px;
+  margin: 10px;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.flex-item:first-child {
+  margin-bottom: 2rem;
+}
+
+ul {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+li {
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+a {
+  color: #8a8888;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+a:hover {
+  color: #6e6e6e;
+}
